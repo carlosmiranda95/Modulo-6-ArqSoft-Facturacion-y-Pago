@@ -1,0 +1,6 @@
+version: '3'
+services:
+  facturacion_pago:
+    image: facturacion_pago:latest
+    ports:
+      - 3000:3000
