@@ -3,7 +3,7 @@ FROM python:stretch AS base
 RUN apt-get update
 RUN apt-get install unixodbc-dev -y
 WORKDIR /app
-EXPOSE 6000
+EXPOSE 3000
 
 FROM python:stretch AS build
 COPY ["requirements.txt","."]
@@ -17,4 +17,4 @@ RUN pip install --no-index --find-links=/packages/ /app/packages/*
 WORKDIR /app
 COPY . .
 
-ENTRYPOINT ["python", "app.py"]
+ENTRYPOINT ["python", "run.py"]
