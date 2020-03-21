@@ -1,6 +1,10 @@
 # Modulo-6-ArqSoft-Facturacion-y-Pago
+Integrantes:
 
-Event Storming;
+Carlos Miranda Rocha
+Hever Guzman Campero
+
+Event Storming:
 
 https://miro.com/app/board/o9J_kvNZeLo=/
 
@@ -19,3 +23,4 @@ Pasos para Correr la aplicacion:
 4. Levantar la aplicacion con el archivo run.py, que esta dentro de la raiz del proyecto
 
 Se implementaron los eventos de creacion de venta y Factura los cuales estan en el Miro
+
