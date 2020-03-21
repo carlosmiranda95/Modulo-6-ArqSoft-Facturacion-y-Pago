@@ -2,6 +2,7 @@
 Integrantes:
 
 Carlos Miranda Rocha
+
 Hever Guzman Campero
 
 Event Storming:
